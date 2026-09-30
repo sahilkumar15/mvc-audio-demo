@@ -1,0 +1,394 @@
+{
+    "groups": [
+        {
+            "samples": [
+                {
+                    "model": "MVC",
+                    "file": "docs/assests/mvc_abs.wav"
+                },
+                {
+                    "model": "StyleTTS 2",
+                    "file": "docs/assests/st2_abs.wav"
+                },
+                {
+                    "model": "VITS",
+                    "file": "docs/assests/vits_abs.wav"
+                },
+                {
+                    
+                    "model": "JETS",
+                    "file": "docs/assests/jets_abs.wav"
+                }
+            ]
+        }
+    ],
+    "texts": [
+        {
+        
+            
+            "samples": [
+                {
+                    "text": "After the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at Goree,",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assests/1a-gt.wav" },
+                        { "name": "MVC", "file": "docs/assests/1a_mvc.wav" },
+                        { "name": "StyleTTS 2", "file": "docs/assests/1a-st2.wav" },
+                        { "name": "JETS", "file": "docs/assests/1a-jets.wav" },
+                        { "name": "VITS", "file": "docs/assests/1a-vits.wav" },
+                        { "name": "StyleTTS", "file": "docs/assests/1a-st.wav" }
+                    ]
+                },
+
+                {
+                    "text": "The lax discipline maintained in Newgate was still further deteriorated by the presence of two other classes of prisoners who ought never to have been inmates of such a jail.",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assests/1b_gt.wav" },
+                        { "name": "MVC", "file": "docs/assests/1b_mvc.wav" },
+                        { "name": "StyleTTS 2", "file": "docs/assests/1b_st2.wav" },
+                        { "name": "JETS", "file": "docs/assests/1b_jets.wav" },
+                        { "name": "VITS", "file": "docs/assests/1b_vits.wav" },
+                        { "name": "StyleTTS", "file": "docs/assests/1b_st.wav" }
+                    ]
+                },
+                {
+                    "text": "Maltby and Co. would issue warrants on them deliverable to the importer, and the goods were then passed to be stored in neighboring warehouses.",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assests/1c_gt.wav" },
+                        { "name": "MVC", "file": "docs/assests/1c_mvc.wav" },
+                        { "name": "StyleTTS 2", "file": "docs/assests/1c_st2.wav" },
+                        { "name": "JETS", "file": "docs/assests/1c_jets.wav" },
+                        { "name": "VITS", "file": "docs/assests/1c_vits.wav" },
+                        { "name": "StyleTTS", "file": "docs/assests/1c_st.wav" }
+                    ]
+                },
+                {
+                    "text": " it is not possible to state with scientific certainty that a particular small group of fibers come from a certain piece of clothing.",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assests/1d_gt.wav" },
+                        { "name": "MVC", "file": "docs/assests/1d_mvc.wav" },
+                        { "name": "StyleTTS 2", "file": "docs/assests/1d_st2.wav" },
+                        { "name": "JETS", "file": "docs/assests/1d_jets.wav" },
+                        { "name": "VITS", "file": "docs/assests/1d_vits.wav" },
+                        { "name": "StyleTTS", "file": "docs/assests/1d_st.wav" }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "2. Single-Speaker (LJSpeech, Out-Of-Distribution Texts)",
+            
+            "samples": [
+                {
+                    "text": "Then leaving the corpse within the house they go themselves to and fro about the city and beat themselves, with their garments bound up by a girdle.",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assests/2a_gt.wav" },
+                        { "name": "MVC", "file": "docs/assests/2a_mvc.wav" },
+                        { "name": "StyleTTS 2", "file": "docs/assests/2a_st2.wav" },
+                        { "name": "JETS", "file": "docs/assests/2a_jets.wav" },
+                        { "name": "VITS", "file": "docs/assests/2a_vits.wav" },
+                        { "name": "StyleTTS", "file": "docs/assests/2a_st.wav" }
+                    ]
+                },
+                {
+                    "text": "Write your name and address clearly. Mail a note and a duplicate list at the time you send the box.",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assests/2b_gt.wav" },
+                        { "name": "MVC", "file": "docs/assests/2b_mvc.wav" },
+                        { "name": "StyleTTS 2", "file": "docs/assests/2b_st2.wav" },
+                        { "name": "JETS", "file": "docs/assests/2b_jets.wav" },
+                        { "name": "VITS", "file": "docs/assests/2b_vits.wav" },
+                        { "name": "StyleTTS", "file": "docs/assests/2b_st.wav" }
+                    ]
+                },
+                {
+                    "text": "Indeed, she is said to have angled with Napoleonic strategy for that same offer, and to have won it only after a sharp struggle of wits.",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assests/2c_gt.wav" },
+                        { "name": "MVC", "file": "docs/assests/2c_mvc.wav" },
+                        { "name": "StyleTTS 2", "file": "docs/assests/2c_st2.wav" },
+                        { "name": "JETS", "file": "docs/assests/2c_jets.wav" },
+                        { "name": "VITS", "file": "docs/assests/2c_vits.wav" },
+                        { "name": "StyleTTS", "file": "docs/assests/2c_st.wav" }
+                    ]
+                },
+                {
+                    "text": "Not as a lifeless thing, but with the same enjoyment of rest as gladdened the hearts of the two beings, who, with gratitude and love...",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assests/2d_gt.wav" },
+                        { "name": "MVC", "file": "docs/assests/2d_mvc.wav" },
+                        { "name": "StyleTTS 2", "file": "docs/assests/2d_st2.wav" },
+                        { "name": "JETS", "file": "docs/assests/2d_jets.wav" },
+                        { "name": "VITS", "file": "docs/assests/2d_vits.wav" },
+                        { "name": "StyleTTS", "file": "docs/assests/2d_st.wav" }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "3. Zero-shot Speaker Adaptation (LibriTTS)",
+           
+            "samples": [
+                {
+                    "text": "Yea, his honourable worship is within, but he hath a godly minister or two with him, and likewise a leech.",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assests/3a_gt.wav" },
+                        { "name": "Reference", "file": "docs/assests/3a_ref.wav" },
+                        { "name": "MVC (~245 Hours)", "file": "docs/assests/3a_mvc.wav" },
+                        { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assests/3a_st2.wav" },
+                        { "name": "VITS (~245 Hours)", "file": "docs/assests/3a_vits.wav" }  
+                    ]
+                },
+                {
+                    "text": "Thus did this humane and right minded father comfort his unhappy daughter, and her mother embracing her again, did all she could to soothe her feelings.",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assests/3b_gt.wav" },
+                        { "name": "Reference", "file": "docs/assests/3b_ref.wav" },
+                        { "name": "MVC (~245 Hours)", "file": "docs/assests/3b_mvc.wav" },
+                        { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assests/3b_st2.wav" },
+                        { "name": "VITS (~245 Hours)", "file": "docs/assests/3b_vits.wav" }
+                    ]
+                },
+                {
+                    "text": "And lay me down in my cold bed and leave my shining lot.",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assests/3c_gt.wav" },
+                        { "name": "Reference", "file": "docs/assests/3c_ref.wav" },
+                        { "name": "MVC (~245 Hours)", "file": "docs/assests/3c_mvc.wav" },
+                        { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assests/3c_st2.wav" },
+                        { "name": "VITS (~245 Hours)", "file": "docs/assests/3c_vits.wav" }
+                    ]
+                },
+                {
+                    "text": "The army found the people in poverty and left them in comparative wealth.",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assests/3d_gt.wav" },
+                        { "name": "Reference", "file": "docs/assests/3d_ref.wav" },
+                        { "name": "MVC (~245 Hours)", "file": "docs/assests/3d_mvc.wav" },
+                        { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assests/3d_st2.wav" },
+                        { "name": "VITS (~245 Hours)", "file": "docs/assests/3d_vits.wav" }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "4. Donald Trump Voice Cloning",
+            "samples": [
+                   
+                
+                    {
+                      
+                        "text": "After the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at Goree,",
+                        "models": [
+                            { "name": "References", "file": "docs/assests/trump.wav" },
+                            { "name": "MVC", "file": "docs/assests/4a_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/4a_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/4a_vits.wav" }
+                        ]
+                    },
+                    
+    
+                    {
+                        "text": "The lax discipline maintained in Newgate was still further deteriorated by the presence of two other classes of prisoners who ought never to have been inmates of such a jail.",
+                        "models": [
+                            
+                            { "name": "MVC", "file": "docs/assests/4b_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/4b_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/4b_vits.wav" }
+                        ]
+                    },
+                    {
+                        "text": "Maltby and Co. would issue warrants on them deliverable to the importer, and the goods were then passed to be stored in neighboring warehouses.",
+                        "models": [
+                           
+                            { "name": "MVC", "file": "docs/assests/4c_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/4c_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/4c_vits.wav" }
+                        ]
+                    },
+                    {
+                        "text": " it is not possible to state with scientific certainty that a particular small group of fibers come from a certain piece of clothing.",
+                        "models": [
+                            
+                            { "name": "MVC", "file": "docs/assests/4d_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/4d_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/4d_vits.wav" }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "5. Elon Musk Voice Cloning",
+            "samples": [
+                   
+                
+                    {
+                      
+                        "text": "After the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at Goree,",
+                        "models": [
+                            { "name": "References", "file": "docs/assests/elon.wav" },
+                            { "name": "MVC", "file": "docs/assests/5a_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/5a_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/5a_vits.wav" }
+                        ]
+                    },
+                    
+    
+                    {
+                        "text": "The lax discipline maintained in Newgate was still further deteriorated by the presence of two other classes of prisoners who ought never to have been inmates of such a jail.",
+                        "models": [
+                            
+                            { "name": "MVC", "file": "docs/assests/5b_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/5b_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/5b_vits.wav" }
+                        ]
+                    },
+                    {
+                        "text": "Maltby and Co. would issue warrants on them deliverable to the importer, and the goods were then passed to be stored in neighboring warehouses.",
+                        "models": [
+                           
+                            { "name": "MVC", "file": "docs/assests/5c_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/5c_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/5c_vits.wav" }
+                        ]
+                    },
+                    {
+                        "text": " it is not possible to state with scientific certainty that a particular small group of fibers come from a certain piece of clothing.",
+                        "models": [
+                            
+                            { "name": "MVC", "file": "docs/assests/5d_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/5d_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/5d_vits.wav" }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "6. Jensen Huang Voice Cloning",
+            "samples": [
+                   
+                
+                    {
+                      
+                        "text": "After the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at Goree,",
+                        "models": [
+                            { "name": "References", "file": "docs/assests/jensen.wav" },
+                            { "name": "MVC", "file": "docs/assests/6a_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/6a_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/6a_vits.wav" }
+                        ]
+                    },
+                    
+    
+                    {
+                        "text": "The lax discipline maintained in Newgate was still further deteriorated by the presence of two other classes of prisoners who ought never to have been inmates of such a jail.",
+                        "models": [
+                            
+                            { "name": "MVC", "file": "docs/assests/6b_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/6b_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/6b_vits.wav" }
+                        ]
+                    },
+                    {
+                        "text": "Maltby and Co. would issue warrants on them deliverable to the importer, and the goods were then passed to be stored in neighboring warehouses.",
+                        "models": [
+                           
+                            { "name": "MVC", "file": "docs/assests/6c_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/6c_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/6c_vits.wav" }
+                        ]
+                    },
+                    {
+                        "text": " it is not possible to state with scientific certainty that a particular small group of fibers come from a certain piece of clothing.",
+                        "models": [
+                            
+                            { "name": "MVC", "file": "docs/assests/6d_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/6d_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/6d_vits.wav" }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "7. Taylor Swift Voice Cloning",
+            "samples": [
+                   
+                
+                    {
+                      
+                        "text": "After the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at Goree,",
+                        "models": [
+                            { "name": "References", "file": "docs/assests/taylor.wav" },
+                            { "name": "MVC", "file": "docs/assests/7a_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/7a_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/7a_vits.wav" }
+                        ]
+                    },
+                    
+    
+                    {
+                        "text": "The lax discipline maintained in Newgate was still further deteriorated by the presence of two other classes of prisoners who ought never to have been inmates of such a jail.",
+                        "models": [
+                            
+                            { "name": "MVC", "file": "docs/assests/7b_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/7b_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/7b_vits.wav" }
+                        ]
+                    },
+                    {
+                        "text": "Maltby and Co. would issue warrants on them deliverable to the importer, and the goods were then passed to be stored in neighboring warehouses.",
+                        "models": [
+                           
+                            { "name": "MVC", "file": "docs/assests/7c_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/7c_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/7c_vits.wav" }
+                        ]
+                    },
+                    {
+                        "text": " it is not possible to state with scientific certainty that a particular small group of fibers come from a certain piece of clothing.",
+                        "models": [
+                            
+                            { "name": "MVC", "file": "docs/assests/7d_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/7d_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/7d_vits.wav" }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "8. Speech Diversity",
+            "description": "How much variation is there?",
+            "samples": [
+                {
+                    "name": "MVC",
+                    "files": [
+                        "docs/assests/8a_mvc.wav",
+                        "docs/assests/8b_mvc.wav",
+                        "docs/assests/8c_mvc.wav",
+                        "docs/assests/8d_mvc.wav",
+                        "docs/assests/8e_mvc.wav"
+                    ]
+                },
+                {
+                    "name": "StyleTTS 2",
+                    "files": [
+                        "docs/assests/8a_st2.wav",
+                        "docs/assests/8b_st2.wav",
+                        "docs/assests/8c_st2.wav",
+                        "docs/assests/8d_st2.wav",
+                        "docs/assests/8e_st2.wav"
+                    ]
+                },
+                {
+                    "name": "VITS",
+                    "files": [
+                        "docs/assests/8a_vits.wav",
+                        "docs/assests/8b_vits.wav",
+                        "docs/assests/8c_vits.wav",
+                        "docs/assests/8d_vits.wav",
+                        "docs/assests/8e_vits.wav"
+                    ]
+                }
+            ]
+        }
+    ]
+}

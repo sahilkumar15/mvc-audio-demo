@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Audio samples for MambaVoiceCloning (MVC), an efficient and expressive text-to-speech system using state-space modeling and diffusion control."
+    >
+
+    <title>MambaVoiceCloning (MVC) | Audio Samples</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+    <main class="page-container">
+
+        <!-- =========================================================
+             HERO / PAPER INFORMATION
+        ========================================================== -->
+        <header class="hero">
+
+            <div class="venue-badge">
+                ICLR 2026 · Audio Demo
+            </div>
+
+            <h1>
+                MambaVoiceCloning
+                <span class="title-short">(MVC)</span>
+            </h1>
+
+            <p class="paper-title">
+                Efficient and Expressive Text-to-Speech via
+                State-Space Modeling and Diffusion Control
+            </p>
+
+            <p class="authors">
+                Sahil Kumar
+                <span>•</span>
+                Namrataben Patel
+                <span>•</span>
+                Honggang Wang
+                <span>•</span>
+                Youshan Zhang
+            </p>
+
+            <p class="affiliation">
+                Yeshiva University, New York, USA
+                <span>·</span>
+                Chuzhou University, Anhui, China
+            </p>
+
+
+            <!-- =====================================================
+                 HEADLINE RESULTS
+            ====================================================== -->
+            <div class="stats-grid">
+
+                <div class="stat-card">
+                    <div class="stat-value">21M</div>
+                    <div class="stat-label">
+                        Encoder Parameters
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-value">1.6×</div>
+                    <div class="stat-label">
+                        Encoder Throughput
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-value">O(T)</div>
+                    <div class="stat-label">
+                        Conditioning Complexity
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-value">SSM-only</div>
+                    <div class="stat-label">
+                        Inference Conditioning
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- =====================================================
+                 LINKS
+            ====================================================== -->
+            <div class="hero-links">
+
+                <a
+                    href="https://github.com/aiai-9/MVC"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="button button-primary"
+                >
+                    GitHub Repository
+                </a>
+
+                <a
+                    href="https://arxiv.org/abs/2604.00292"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="button button-secondary"
+                >
+                    Paper
+                </a>
+
+            </div>
+
+        </header>
+
+
+        <!-- =========================================================
+             ABSTRACT
+        ========================================================== -->
+        <section class="abstract-card">
+
+            <div class="abstract-heading">
+                Abstract
+            </div>
+
+            <p>
+                MambaVoiceCloning (MVC) investigates whether the
+                conditioning pathway of diffusion-based text-to-speech
+                can be made fully state-space-model based at inference,
+                removing attention and explicit recurrent modules across
+                text, rhythm, and prosody while preserving speech quality.
+                MVC combines a gated bidirectional Mamba text encoder,
+                a Temporal Bi-Mamba supervised by a lightweight alignment
+                teacher used only during training, and an Expressive Mamba
+                with AdaLN modulation.
+            </p>
+
+            <p>
+                Under a fixed StyleTTS2 mel-diffusion-vocoder backbone,
+                MVC provides linear-time O(T) conditioning with bounded
+                activation memory and supports practical finite
+                look-ahead streaming. The model is trained on LJSpeech
+                and LibriTTS and evaluated on zero-shot speakers,
+                cross-lingual speech, out-of-distribution text, and
+                long-form synthesis.
+            </p>
+
+            <p>
+                MVC achieves modest but statistically reliable improvements
+                in speech quality and conditioning efficiency under
+                controlled comparisons. Its deployed encoder contains
+                21M parameters and achieves a 1.6× improvement in encoder
+                throughput, while the diffusion decoder remains the
+                dominant source of inference latency.
+            </p>
+
+        </section>
+
+
+        <!-- =========================================================
+             QUICK AUDIO COMPARISON
+        ========================================================== -->
+        <section class="content-section quick-comparison">
+
+            <div class="section-heading-block">
+
+                <p class="section-kicker">
+                    Listen
+                </p>
+
+                <h2>
+                    Quick Audio Comparison
+                </h2>
+
+                <p class="section-description">
+                    Listen to the same example synthesized by MVC and
+                    representative baseline systems.
+                </p>
+
+            </div>
+
+            <!--
+                Filled automatically by script.js
+                MVC / StyleTTS2 / VITS / JETS
+            -->
+            <div id="simple-samples"></div>
+
+        </section>
+
+
+        <!-- =========================================================
+             MAIN AUDIO RESULTS
+        ========================================================== -->
+        <section class="content-section audio-results">
+
+            <div class="section-heading-block">
+
+                <p class="section-kicker">
+                    Evaluation Samples
+                </p>
+
+                <h2 class="main-section-title">
+                    1. Single-Speaker
+                    <span class="heading-detail">
+                        LJSpeech · In-Distribution Text
+                    </span>
+                </h2>
+
+                <p class="section-description">
+                    Compare ground-truth recordings with synthesized
+                    outputs from MVC and baseline TTS systems.
+                </p>
+
+            </div>
+
+
+            <!--
+                All remaining sections are populated by script.js
+                from data/samples.json.
+            -->
+            <div id="text-samples"></div>
+
+        </section>
+
+
+        <!-- =========================================================
+             FOOTER
+        ========================================================== -->
+        <footer>
+
+            <p class="footer-title">
+                MambaVoiceCloning (MVC)
+            </p>
+
+            <p>
+                ICLR 2026 · Audio Demonstration
+            </p>
+
+            <p>
+                Sahil Kumar · Namrataben Patel ·
+                Honggang Wang · Youshan Zhang
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <!-- Keep this at the bottom -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
